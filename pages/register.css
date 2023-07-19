@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contaoner{
+    max-width: 1601px;
+    margin: 0 auto;
+    min-width: 100%;
+}
+.register-section{
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(47, 25, 40, 1090) 91.6%);
+    height: 1900px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 184px;
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    background: #8613A5;
+    border-radius: 50%;
+}
+.heading>h1{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+}
+.carts{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.heading-card{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-size: 30px;
+    color: #F5FBF2;
+}
+.cart{
+    width: 550px;
+    height: 700px;
+    background: #3D2942;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    row-gap: 30px;
+}
+.inputs>input{
+    width: 380px;
+    height: 100px;
+    text-align: center;
+    color: #BDAAC1;
+    background: #3D2942;
+    border: 2px solid #FDE8B3;
+    font-size: 30px;
+}
+.mm-gg>input{
+    width: 188px;
+    height: 100px;
+    text-align: center;
+    color: #BDAAC1;
+    background: #3D2942;
+    border: 2px solid #FDE8B3;
+    font-size: 30px
+}
+.register-button{
+    padding-top: 40px;
+}
+.register-button>button{
+    width: 380px;
+    height: 80px;
+    background: #3D2942;
+    border: 2px solid #E7B226;
+    font-size: 30px;
+}
+.register-button>button>p{
+    font-family: 'Work Sans';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2; 
+    text-decoration: none;
+}

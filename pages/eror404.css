@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(27, 18, 15, 1090) 91.6%);
+    background-repeat: no-repeat;
+} */
+.container{
+    max-width: 1601px;
+    margin: 0 auto;
+    padding: 50vh 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .box_text_smile{
+    background: url(hhttps://w7.pngwing.com/pngs/785/833/png-transparent-smiley-sadness-emoticon-sad-emoticons-face-website-world-smile-day.png);
+    width: 300px;
+    height: 300px;
+} */
+/* .back{
+    padding-top: 50px;
+    padding-bottom: 25px;
+} */
+.button_back{
+
+    color: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+}
+
+.register_button {
+    
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+  
+    background: rgba(5, 5, 3, 0.1);
+    /* background: rgba(233, 215, 167, 0.10); */
+    
+    width: 195px;
+    height: 64px;
+}
+.box_button{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 1500px;
+}
+.box_h1{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 200px 0 25px 0;
+    width: 1500px;
+}

@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conainer{
+    max-width: 1601px;
+    margin: 0 auto;
+    min-width: 100%;
+}
+section{
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(47, 25, 40, 1090) 91.6%);
+    height: 2500px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 184px;
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    background: #8613A5;
+    border-radius: 50%;
+}
+.heading>h1{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+}
+.carts-all-top{
+    display: flex;
+    justify-content: center;
+    column-gap: 36px;
+    padding-top: 100px;
+}
+.carts-all-top>.cart{
+    height: 730px;
+}
+.carts-all-buttom{
+    display: flex;
+    justify-content: center;
+    column-gap: 36px;
+    padding-top: 200px;
+}
+.cart{
+    width: 495px;
+    height: 791px;
+    background: #3D2942;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img>img{
+    padding: 32px;
+}
+.profile{
+    display: flex;
+}
+.profile>img{
+    padding-left: 32px;
+}
+.virtual-art>h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #F5FBF2;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #F5FBF2;
+}
+.virtual-art>p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BDAAC1;
+}
+.like{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 32px;
+    position: relative;
+    bottom: 40px;
+    gap: 9px;
+}
+.like>p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #76607A;
+    position: relative;
+    bottom: 6px;
+}
+.current-bid{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 32px;
+}
+.current-bid>p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #C6BFC8;
+}
+.current-bid>h1{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+.carts-all-buttom>.cart{
+    height: 680px;
+}
+.place-bid{
+    display: flex;
+    justify-content: center;
+}
+.place-bid>form>button{
+    width: 400px;
+    height: 78px;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FDE8B3;
+}
+.place-bid>form>button>p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.back-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(47, 25, 40, 1090) 91.6%);
+    border: 1px solid #FFCE4E;;
+}
+.back-btn>p{
+    font-size:30px;
+    color: #FFF;
+}
+@media screen and (max-width: 800px) {
+    .container{
+        max-width: 800px;
+    }
+    section{
+        height: 5250px;
+    }
+    .carts-all-top{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .carts-all-buttom{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
